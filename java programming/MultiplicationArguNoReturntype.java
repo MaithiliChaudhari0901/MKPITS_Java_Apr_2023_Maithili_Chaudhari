@@ -1,14 +1,11 @@
-//-----Argument with no returntype------
-
-class MultiplicationArgNoReturnType{
-
-public void multiplication(int number1,int number2){
-int multiple;
-multiple=number1*number2;
-System.out.println("Multiplication of two number= "+multiple);
+class MultiplicationArguNoReturntype {
+public void multiply (int number1, int number2) {
+int mul;
+mul=number1*number2;
+System.out.println("Multiplication of two number"+mul);
 }
-public static void main(string[]args){
-MultiplicationArgNoReturnType mul=new MultiplicationArgNoReturnType();
-mul.multiplication();
+public static void main(String[] args) {
+MultiplicationArguNoReturntype add= new MultiplicationArguNoReturntype();
+add.multiply(4,6);
 }
 }
