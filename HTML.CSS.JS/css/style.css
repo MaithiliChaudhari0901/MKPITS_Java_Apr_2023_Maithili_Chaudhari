@@ -1,0 +1,10 @@
+th{
+    color: aqua;
+    background-color: maroon;
+}
+td{
+    background-color: pink;
+}
+table{
+    border: 2px solid green;
+}
