@@ -7,20 +7,21 @@
 </head>
 <body>
     <!-- heading tags are h1 to h6 -->
-    <h1>Manali</h1>
-    <h2>Manali</h2>
-    <h3>Manali</h3>
-    <h4>Manali</h4>
-    <h5>Manali</h5>
-    <h6>Manali</h6>
+    <h1>pihu</h1>
+    <h2>pihu</h2>
+    <h3>pihu</h3>
+    <h4>pihu</h4>
+    <h5>pihu</h5>
+    <h6>pihu</h6>
     <hr>
 
     <h2>Bold tag</h2>
-    <p><b>education is the tool that break down all barriers. education is the part of the foundation of all progress and growth.</b></p>
+    <p><b> My name is maithili chaudhari and i am from chandur bazar  and  i am currently graduate  in engineering in IT   </b></p>
 
 
     <h2>Strong tag</h2>
-    <p><strong>education is the tool that break down all barriers. education is the part of the foundation of all progress and growth.</p></strong>
+    <p><strong></p></strong>
+
 
 
     <h2>Itlic tag</h2>
