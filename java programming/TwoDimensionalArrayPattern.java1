@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class TwoDimensionalArrayPattern{
+public static void main (String[]args){
+Scanner sc=new Scanner(System.in);
+int rows=sc.nextInt();
+int size=rows;
+int middle=size/2;
+for(int outerloops=0;outerloops<rows;outerloops++) {
+for(int col=0;col<size;col++) {
+if (outerloops <=middle) {
+if(col ==middle-outerloop|| col == middle+ outerloops) {
+System.out.print("*");
+}
+else{
+System.out.print(" ");
+}
+if
+}else{
+if(col == middle -(size-1 -outerloops)|| col==middle + (size -1 -outerloops)) {
+System.out.print("*");
+}else{
+System.out.print(" ");
+}
+}
+}
+ System.out.println();
+}
+}
+}
+
+
+
+
+
+
