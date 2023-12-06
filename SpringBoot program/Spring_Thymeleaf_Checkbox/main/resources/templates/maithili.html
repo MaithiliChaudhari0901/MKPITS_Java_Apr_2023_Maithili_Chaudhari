@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/displayvalue}" method="get" >
+    <label>rollno</label><input type="text" placeholder="enter ur rollno" name="rollno">
+    <label>address</label><input type="text"  placeholder="enter ur address"name="address">
+<!--    <label>city</label><input type="text"  placeholder="enter ur city"name="city">-->
+    <label>City</label>
+    <select name="city">
+        <option value="Mumbai">Mumbai</option>
+        <option value="Chennai">Chennai</option>
+    </select>
+    <label>name</label><input type="text" placeholder="enter ur name"name="name">
+    <input type="button" value="submit">
+
+<label>Gender</label>
+    <input type="radio" name="male">
+    <input type="radio" name="female">
+
+
+<!--    <labal>name</labal>-->
+<!--    <select>city</select>-->
+<!--    <option>value="amaravati">amaravati</option>-->
+<!--    <option>value="chandur">chandur</option>-->
+<!--    <option>value="morshi">morshi</option>-->
+</form>
+</body>
+</html>
