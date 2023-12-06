@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/displayvalue}" method="get" >
+ <input type="text" placeholder="enter ur rollno" name="rollno"><label>rollno</label>
+    <input type="text"  placeholder="enter ur address"name="address"><label>address</label>
+    <input type="text"  placeholder="enter ur city"name="city"><label>city</label>
+    <input type="text"  placeholder="enter ur name"name="name"><label>name</label>
+    <input type="submit" name="submit">
+</form>
+</body>
+</html>
