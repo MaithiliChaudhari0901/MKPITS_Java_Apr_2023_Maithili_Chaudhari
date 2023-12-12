@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/students/display}" th:object="${stud}" method="post">
+       <input type="text" th:field="${stud.rollno}"/>
+       <input type="text"  th:field="${stud.name}"/>
+       <input type="text"   th:field="${stud.city}"/>
+       <input type="text"  th:field="${stud.address}"/>
+
+<!--       <label>Gender</label>-->
+<!--      <input type="radio" name="male" th:field="${stud.male}"/>-->
+<!--      <input type="radio" name="female" th:field="${stud.female}"/>-->
+    <input type="button" value="submit">
+</form>
+</body>
+</html>
